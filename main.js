@@ -12,7 +12,7 @@ const createWindow = () => {
     },
   });
 
-  win.loadFile("index.html");
+  win.loadFile("dist/my-angular-app/browser/index.html");
 };
 
 app.whenReady().then(() => {
