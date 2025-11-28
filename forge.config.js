@@ -28,7 +28,7 @@ module.exports = {
     {
       name: '@electron-forge/maker-squirrel',
       config: {
-        name:"Panda Turu",
+        name:"panda-turu",
         setupExe:"pandaturu.exe",
         setupIcon:"assets/sleeping-panda.ico",
         shortcutName:"Panda Turu"
