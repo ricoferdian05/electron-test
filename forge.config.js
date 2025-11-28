@@ -27,7 +27,12 @@ module.exports = {
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        name:"Panda Turu",
+        setupExe:"pandaturu.exe",
+        setupIcon:"assets/sleeping-panda.ico",
+        shortcutName:"Panda Turu"
+      },
     },
     {
       name: '@electron-forge/maker-zip',
